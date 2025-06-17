@@ -53,5 +53,5 @@ CONTROLA+ é uma aplicação web desenvolvida para ajudar no gerenciamento finan
 
 ## Contatos de desenvolvimento
 
-- Camila: [GitHub](https://github.com/seu-usuario)
-- Fzsdev: [GitHub](https://github.com/fzsdev)
+- Camila: [GitHub](https://github.com/c-camila)
+- Felipe: [GitHub](https://github.com/fzsdev)
