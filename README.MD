@@ -4,6 +4,12 @@
 
 CONTROLA+ é uma aplicação web desenvolvida como projeto acadêmico para demonstrar conceitos fundamentais de desenvolvimento de software front-end. A aplicação implementa um sistema de controle financeiro pessoal utilizando tecnologias web modernas, oferecendo funcionalidades completas de gerenciamento de transações financeiras com persistência de dados local.
 
+## Demonstração
+
+[![Demonstração CONTROLA+](https://img.youtube.com/vi/A0naf4L3LKQ/0.jpg)](https://youtu.be/A0naf4L3LKQ)
+
+*Clique na imagem acima para assistir à demonstração completa da aplicação*
+
 ---
 
 ## Objetivo do Projeto
@@ -167,5 +173,5 @@ O projeto CONTROLA+ demonstra a aplicação prática de conceitos fundamentais d
 
 ## Contatos de Desenvolvimento
 
-- **Camila:** [GitHub](https://github.com/c-camila)
-- **Felipe:** [GitHub](https://github.com/fzsdev)
+- **Camila Silva:** <a href="https://github.com/c-camila" target="_blank">GitHub</a>
+- **Felipe Zanardo:** <a href="https://github.com/fzsdev" target="_blank">GitHub</a>
