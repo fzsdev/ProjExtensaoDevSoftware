@@ -6,7 +6,9 @@ CONTROLA+ é uma aplicação web desenvolvida como projeto acadêmico para demon
 
 ## Demonstração
 
-[![Demonstração CONTROLA+](https://img.youtube.com/vi/A0naf4L3LKQ/0.jpg)](https://youtu.be/A0naf4L3LKQ)
+<a href="https://youtu.be/A0naf4L3LKQ" target="_blank">
+  <img src="https://img.youtube.com/vi/A0naf4L3LKQ/0.jpg" alt="Demonstração CONTROLA+" />
+</a>
 
 *Clique na imagem acima para assistir à demonstração completa da aplicação*
 
