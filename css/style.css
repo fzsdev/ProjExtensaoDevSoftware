@@ -1,10 +1,10 @@
 :root {
-  --dark-blue: #363f5f;
+  --dark-blue: #161E27;
   --green: #49aa26;
   --light-green: #3dd705;
   --logo-green: #00FF7F;
-  --red: #e92929;
-  --header-bg: #093a59;
+  --red: #851005;
+  --header-bg: #161E27;
 }
 
 * {
@@ -18,8 +18,16 @@ html {
 }
 
 body {
-  background: #f0f2f5;
+  background: #E4E4E4;
   font-family: 'Poppins', sans-serif;
+  padding-bottom: 80px; /* Espaço para o footer fixo */
+}
+
+/* Ajuste responsivo para mobile */
+@media (max-width: 600px) {
+  body {
+    padding-bottom: 60px; /* Menor espaço em mobile */
+  }
 }
 
 .logo {
@@ -27,6 +35,11 @@ body {
   height: auto;
   display: block;
   margin: 1rem auto;
+}
+
+.semibold {
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
 }
 
 .sr-only {
@@ -44,6 +57,12 @@ body {
 .container {
   width: min(90vw, 800px);
   margin: auto;
+}
+
+.modal h2,
+.modal label {
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
 }
 
 h2 {
@@ -148,7 +167,7 @@ header {
 }
 
 .card.total {
-  background: #268504;
+  background: #268505;
   color: white;
 }
 
@@ -161,7 +180,7 @@ header {
 #data-table {
   width: 100%;
   border-spacing: 0 0.5rem;
-  color: #969cb3;
+  color: #161E27;
 }
 
 table thead tr th:first-child,

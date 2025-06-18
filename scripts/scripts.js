@@ -205,4 +205,27 @@ const ErrorModal = {
   },
 };
 
+let startY = 0;
+let pulling = false;
+
+document.addEventListener('touchstart', (e) => {
+  if (window.scrollY === 0) {
+    startY = e.touches[0].clientY;
+    pulling = true;
+  }
+}, { passive: true });
+
+document.addEventListener('touchend', (e) => {
+  if (pulling) {
+    let endY = e.changedTouches[0].clientY;
+    let pullDistance = endY - startY;
+
+    if (pullDistance > 100) {
+      App.reload();
+    }
+
+    pulling = false;
+  }
+});
+
 App.init();

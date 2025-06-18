@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;600&display=swap"
     rel="stylesheet" />
   <link rel="shortcut icon" href="./assets/dollar-svgrepo-com.svg"
     type="image/x-icon">
@@ -21,7 +21,7 @@
     <img src="./assets/logo_controla_mais.svg" alt="CONTROLA+" class="logo">
   </header>
 
-  <main class=" container">
+  <main class="container">
     <section id="balance">
       <h2 class="sr-only">Balanço</h2>
 
@@ -71,38 +71,39 @@
   <div class="modal-overlay">
     <div class="modal">
       <div class="form">
-        <h2>Nova Transação</h2>
+        <h2><strong>Nova Transação</strong></h2>
         <form action="" onsubmit="Form.submit(event)">
           <div class="input-group">
-            <label class="sr-only" for="description">Descrição</label>
+            <label for="description"><strong>Descrição</strong></label>
             <input type="text" id="description" name="description"
               placeholder="Descrição" />
           </div>
 
           <div class="input-group">
-            <label class="sr-only" for="amount">Valor</label>
+            <label for="amount"><strong>Valor</strong></label>
             <input type="number" step="0.01" id="amount" name="amount"
               placeholder="R$ 0,00" />
             <small class="help">Use sinal " - " (negativo) para despesas e " , "
               (vírgula)
               para
               decimais.</small>
+          </div>
 
-            <div class="input-group">
-              <label class="sr-only" for="date">Data</label>
-              <input type="date" id="date" name="date"
-                placeholder="dd/mm/aaaa" />
-            </div>
-            <div class="input-group actions">
-              <a onclick="Modal.close()" href="#"
-                class="button cancel">Cancelar</a>
-              <button type="submit">Salvar</button>
-            </div>
+          <div class="input-group">
+            <label for="date"><strong>Data</strong></label>
+            <input type="date" id="date" name="date" placeholder="dd/mm/aaaa" />
+          </div>
+
+          <div class="input-group actions">
+            <a onclick="Modal.close()" href="#"
+              class="button cancel">Cancelar</a>
+            <button type="submit">Salvar</button>
           </div>
         </form>
       </div>
     </div>
   </div>
+
   <div class="error-modal-overlay">
     <div class="error-modal">
       <h2>Erro</h2>
@@ -110,15 +111,17 @@
       <button onclick="ErrorModal.close()" class="button">Fechar</button>
     </div>
   </div>
+
   <footer class="footer">
     <div class="footer-content">
       © 2025. Desenvolvido por
       <a href="https://github.com/c-camila" target="_blank">c-camila</a>
       e
-      <a href="https://github.com/fzsdev" target="_blank">fzsdev</a>
+      <a href="https://github.com/fzsdev" target="_blank">fzsdev</a>.
     </div>
   </footer>
-  <script src="/scripts.js"></script>
+
+  <script src="scripts/scripts.js"></script>
 </body>
 
 </html>
